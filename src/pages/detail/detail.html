@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Kết quả</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Kết quả</h3>
+  <strong>{{message}}</strong>
+
+  <div *ngIf="book">
+    <h3>Chi tiết</h3>
+    <p>Tên sách: {{book.name}}</p>
+    <p>Sê-ri sách: {{book.code}}</p>
+    <div><img src="{{book.bookcover}}"></div>
+  </div>
+
+</ion-content>

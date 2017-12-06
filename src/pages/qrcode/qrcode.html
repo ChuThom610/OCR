@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Nhập bằng camera</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="background: none transparent;" padding>
+  <div *ngIf="!started">
+    <h3>Hướng dẫn</h3>
+    <p>Bạn bấm nút BẮT ĐẦU QUYÉT dưới đây và để phần ảnh hình vuông trên thẻ vào giữa camera.</p>
+
+    <button ion-button full icon-left (click)="scanCode()" color="primary">
+      <ion-icon name="qr-scanner"></ion-icon>
+      Quyét và kiểm tra
+    </button>
+
+    <br>
+    <p>Chú ý: Điện thoại cần có kết nối Internet.</p>
+  </div>
+</ion-content>

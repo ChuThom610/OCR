@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Nhập số sê-ri trực tiếp
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Hướng dẫn</h3>
+  <p>Bạn nhập đúng dãy số sê-ri trên thẻ sử dụng Sách Mềm vào ô dưới đây sau đó bấm nút KIỂM TRA.</p>
+
+  <ion-item>
+    <ion-input type="text" placeholder="nhập số sê-ri" [(ngModel)]="seri"></ion-input>
+  </ion-item>
+
+  <button ion-button icon-left full (click)="submitCode()" color="primary">
+    <ion-icon md="md-checkmark-circle-outline" full></ion-icon>
+    Kiểm tra
+  </button>
+
+  <br>
+  <p>Chú ý: Điện thoại cần có kết nối Internet.</p>
+</ion-content>

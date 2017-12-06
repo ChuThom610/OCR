@@ -1,0 +1,44 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "cordova-plugin-geolocation": {
+      "GEOLOCATION_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "cordova-plugin-qrscanner": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    },
+    "cordova-plugin-swift-support": {
+      "PACKAGE_NAME": "vn.sachmem.app.kiemtramasach"
+    }
+  }
+}
